@@ -173,11 +173,11 @@ def fallback_from_text(result_text):
     }
 
     patterns = {
-        "drPoints": [r"DR\s*Points?[:：]?\s*([0-9\.,]+)"],
-        "wins": [r"Wins?[:：]?\s*([0-9\.,]+)"],
-        "races": [r"Races?[:：]?\s*([0-9\.,]+)"],
-        "top5": [r"Top\s*5[:：]?\s*([0-9\.,]+)"],
-        "poles": [r"Pole\s*Positions?[:：]?\s*([0-9\.,]+)"],
+        "drPoints": [r"DR\s*Points?[:：]?\s*([0-9\.,]+)", r"([0-9\.,]+)\s*DR\s*Points?"],
+        "wins": [r"Wins?[:：]?\s*([0-9\.,]+)", r"([0-9\.,]+)\s*Wins?"],
+        "races": [r"Races?[:：]?\s*([0-9\.,]+)", r"([0-9\.,]+)\s*Races?"],
+        "top5": [r"Top\s*5[:：]?\s*([0-9\.,]+)", r"([0-9\.,]+)\s*Top\s*5"],
+        "poles": [r"Pole\s*Positions?[:：]?\s*([0-9\.,]+)", r"([0-9\.,]+)\s*Pole\s*Positions?"],
     }
 
     for k, pats in patterns.items():
@@ -371,6 +371,7 @@ def build_anomaly_report(old_by_psn, final_results):
 # Configurazione Chrome per CI headless Linux
 options = webdriver.ChromeOptions()
 options.add_argument("--headless=new")
+options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36")
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--window-size=1920,1080")
@@ -388,6 +389,8 @@ db = init_firestore()
 old_by_psn = load_old_data_from_firestore(db, ALL_PILOTI)
 
 new_results = {}
+count_ok = 0
+count_skip = 0
 
 for psn in piloti:
     print("=================================")
@@ -453,6 +456,7 @@ for psn in piloti:
             print(f"  ⚠️  Impossibile acquisire avatar per {psn}: {e_avatar}")
 
         if not skip_update:
+            count_ok += 1
             new_results[psn] = {
                 "psn": psn,
                 "dr": int(dr_points),
@@ -466,9 +470,11 @@ for psn in piloti:
             }
             print(f"  ✅ AGGIORNATO {psn}: DR={dr_points} Wins={wins} Races={races} Top5={top5} Poles={poles} Win%={winrate}")
         else:
+            count_skip += 1
             print(f"  🔄 Uso dati vecchi da Firestore per {psn}")
 
     except Exception as e:
+        count_skip += 1
         print(f"  ❌ Errore per {psn}: {e}")
         print(f"  🔄 Uso dati vecchi da Firestore per {psn}")
 
@@ -550,13 +556,20 @@ print(f"⚠️  Anomalie trovate: {len(anomalies)}")
 for a in anomalies[:20]:
     print(f"   {a['psn']} | {' ; '.join(a['reasons'])}")
 
-# ============================================================
-#   UPLOAD FIRESTORE
-# ============================================================
-
 upload_to_firestore(db, final_results)
 
-print("\n✅ Operazione completata.")
-print("📌 Note:")
-print("   - dr.json e anomalies.json sono output locali/artifacts")
-print(f"   - GitHub Raw Avatar URL utilizzato per aggiornare Firestore: {GITHUB_RAW_BASE_URL}")
+print("\n=== RIEPILOGO ESECUZIONE ===")
+print(f"✅ Aggiornati con successo: {count_ok}")
+print(f"⚠️  Saltati (skip/errore):  {count_skip}")
+print("============================\n")
+
+# Se troppi piloti falliscono (es. più del 50%), usciamo con errore per allertare GitHub Actions
+if len(ALL_PILOTI) > 0:
+    success_rate = count_ok / len(ALL_PILOTI)
+    if success_rate < 0.5:
+        print(f"❌ ERRORE CRITICO: Solo il {success_rate:.0%} dei piloti è stato aggiornato.")
+        print("Probabile problema di layout o bot detection. Verificare i log.")
+        import sys
+        sys.exit(1)
+
+print("✅ Operazione completata correttamente.")
