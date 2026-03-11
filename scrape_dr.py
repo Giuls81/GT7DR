@@ -47,7 +47,6 @@ PILOTI_LIST = [
     "Daviderom_91",
     "RKE_BALDO44",
     "RKE_JigenBiker",
-    "brummybulldog",
 ]
 
 ALL_PILOTI = PILOTI_LIST[:]
@@ -317,6 +316,32 @@ def upload_to_firestore(db, final_results):
     except Exception as e:
         print(f"Errore upload Firestore: {e}")
 
+def cleanup_removed_drivers(db, active_psns):
+    """Cancella da Firestore i piloti non più presenti in active_psns."""
+    if db is None:
+        return
+
+    try:
+        print("\n🔍 Avvio pulizia piloti rimossi...")
+        drivers_ref = db.collection(FIRESTORE_COLLECTION)
+        docs = drivers_ref.stream()
+
+        deleted_count = 0
+        for doc in docs:
+            if doc.id not in active_psns:
+                print(f"  🗑️ Rimozione pilota obsoleto: {doc.id}")
+                drivers_ref.document(doc.id).delete()
+                deleted_count += 1
+        
+        if deleted_count > 0:
+            print(f"✅ Pulizia completata: rimossi {deleted_count} piloti.")
+        else:
+            print("✨ Nessun pilota obsoleto trovato.")
+            
+    except Exception as e:
+        print(f"⚠️ Errore durante la pulizia: {e}")
+
+
 # ============================================================
 #   ANOMALIE
 # ============================================================
@@ -557,6 +582,9 @@ for a in anomalies[:20]:
     print(f"   {a['psn']} | {' ; '.join(a['reasons'])}")
 
 upload_to_firestore(db, final_results)
+
+# Pulizia automatica dei piloti rimossi dalla lista
+cleanup_removed_drivers(db, ALL_PILOTI)
 
 print("\n=== RIEPILOGO ESECUZIONE ===")
 print(f"✅ Aggiornati con successo: {count_ok}")
