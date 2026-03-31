@@ -56,35 +56,24 @@
   },
   {
     "psn": "RKE_Pepyx29",
-    "dr": 20677,
-    "drPoints": 20677,
+    "dr": 20121,
+    "drPoints": 20121,
     "wins": 0,
-    "races": 13,
+    "races": 15,
     "top5": 1,
-    "poles": 1,
+    "poles": 15,
     "winrate": "0.0%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Pepyx29.png"
   },
   {
-    "psn": "RKE_MWalter",
-    "dr": 30671,
-    "drPoints": 30671,
-    "wins": 6,
-    "races": 38,
-    "top5": 18,
-    "poles": 8,
-    "winrate": "15.8%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_MWalter.png"
-  },
-  {
     "psn": "RKE__Carra7",
-    "dr": 63455,
-    "drPoints": 63455,
+    "dr": 63281,
+    "drPoints": 63281,
     "wins": 86,
-    "races": 307,
-    "top5": 225,
+    "races": 310,
+    "top5": 227,
     "poles": 97,
-    "winrate": "28.0%",
+    "winrate": "27.7%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE__Carra7.png"
   },
   {
@@ -111,13 +100,13 @@
   },
   {
     "psn": "Daviderom_91",
-    "dr": 18262,
-    "drPoints": 18262,
-    "wins": 16,
-    "races": 97,
-    "top5": 41,
+    "dr": 19167,
+    "drPoints": 19167,
+    "wins": 17,
+    "races": 100,
+    "top5": 42,
     "poles": 16,
-    "winrate": "16.5%",
+    "winrate": "17.0%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/Daviderom_91.png"
   },
   {
@@ -125,9 +114,9 @@
     "dr": 2,
     "drPoints": 2,
     "wins": 0,
-    "races": 69,
+    "races": 70,
     "top5": 14,
-    "poles": 69,
+    "poles": 70,
     "winrate": "0.0%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_BALDO44.png"
   },
@@ -143,14 +132,25 @@
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_JigenBiker.png"
   },
   {
-    "psn": "brummybulldog",
-    "dr": 52096,
-    "drPoints": 52096,
-    "wins": 11,
-    "races": 89,
-    "top5": 65,
-    "poles": 18,
-    "winrate": "12.4%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/brummybulldog.png"
+    "psn": "RKE_Rey",
+    "dr": 55180,
+    "drPoints": 55180,
+    "wins": 14,
+    "races": 81,
+    "top5": 61,
+    "poles": 8,
+    "winrate": "17.3%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Rey.png"
+  },
+  {
+    "psn": "RKE_87treviGT",
+    "dr": 52742,
+    "drPoints": 52742,
+    "wins": 36,
+    "races": 377,
+    "top5": 242,
+    "poles": 23,
+    "winrate": "9.5%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_87treviGT.png"
   }
 ]
