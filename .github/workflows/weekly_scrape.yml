@@ -32,10 +32,11 @@ jobs:
       - name: Run Scraper
         run: python scrape_dr.py
 
-      - name: Commit and Push Avatars
+      - name: Commit and Push Results
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add avatars/*.png || echo "No avatars to add"
-          git commit -m "Update driver avatars [skip ci]" || echo "No changes to commit"
+          git add dr.json || echo "No dr.json to add"
+          git commit -m "Weekly update: rankings and avatars [skip ci]" || echo "No changes to commit"
           git push

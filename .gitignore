@@ -8,5 +8,6 @@ output.txt
 comparison_result*.txt
 .env
 *.json
+!dr.json
 *.html
 *_debug.png
