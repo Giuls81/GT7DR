@@ -23,12 +23,12 @@
   },
   {
     "psn": "RKE__Giuls",
-    "dr": 60256,
-    "drPoints": 60256,
-    "wins": 221,
-    "races": 783,
-    "top5": 600,
-    "poles": 321,
+    "dr": 60134,
+    "drPoints": 60134,
+    "wins": 223,
+    "races": 790,
+    "top5": 605,
+    "poles": 324,
     "winrate": "28.2%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE__Giuls.png"
   },
@@ -67,14 +67,14 @@
   },
   {
     "psn": "RKE__Carra7",
-    "dr": 63281,
-    "drPoints": 63281,
-    "wins": 86,
-    "races": 310,
-    "top5": 227,
-    "poles": 97,
-    "winrate": "27.7%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE__Carra7.png"
+    "dr": 0,
+    "drPoints": 0,
+    "wins": 0,
+    "races": 0,
+    "top5": 0,
+    "poles": 0,
+    "winrate": "-",
+    "avatarUrl": ""
   },
   {
     "psn": "RKE_Micky30",
@@ -100,14 +100,14 @@
   },
   {
     "psn": "Daviderom_91",
-    "dr": 19167,
-    "drPoints": 19167,
-    "wins": 17,
-    "races": 100,
-    "top5": 42,
-    "poles": 16,
-    "winrate": "17.0%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/Daviderom_91.png"
+    "dr": 0,
+    "drPoints": 0,
+    "wins": 0,
+    "races": 0,
+    "top5": 0,
+    "poles": 0,
+    "winrate": "-",
+    "avatarUrl": ""
   },
   {
     "psn": "RKE_BALDO44",
