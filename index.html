@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Ragnarok DR Ranking</title>
+
+<style>
+    body {
+        margin: 0;
+        background: #1a1a1a;
+        font-family: Arial, sans-serif;
+        color: white;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 18px;
+    }
+
+    thead {
+        background: #d4ac2c;
+        color: black;
+        font-weight: bold;
+    }
+
+    th, td {
+        padding: 12px 10px;
+        text-align: center;
+    }
+
+    tbody tr:nth-child(even) {
+        background: rgba(255,255,255,0.04);
+    }
+
+    .avatar {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        border: 2px solid #555;
+        object-fit: cover;
+    }
+
+    .green {
+        color: #00ff66;
+        font-weight: bold;
+    }
+</style>
+
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th>POS</th>
+            <th>PILOTA</th>
+            <th>DR</th>
+            <th>&Delta; DR</th>
+            <th>GARE</th>
+            <th>VITTORIE</th>
+            <th>% WIN</th>
+        </tr>
+    </thead>
+
+    <tbody id="table-body"></tbody>
+</table>
+
+
+<script>
+// Lista ufficiale piloti team
+const PILOTI = [
+    "RKE__Carra7",
+    "RKE__Giuls",
+    "RKE_MaxEpico1979",
+    "RKE_Rey",
+    "RKE_Micky30",
+    "RKE_87treviGT",
+    "RKE_Ekin",
+    "RKE_Bazzo",
+    "RKE_Monty",
+    "RKE_Pepyx29",
+    "Daviderom_91",
+    "RKE_JigenBiker",
+    "RKE_Cjcerbola",
+    "RKE_BALDO44"
+];
+
+// URL GitHub
+const AVATAR_BASE = "https://raw.githubusercontent.com/Giuls81/gt7dr/main/avatars/";
+const DR_URL = "https://raw.githubusercontent.com/Giuls81/gt7dr/main/dr.json";
+
+async function loadData() {
+    const res = await fetch(DR_URL);
+    const data = await res.json();
+
+    // Crea i dati dei piloti e ordina per DR decrescente
+    const orderedPilots = PILOTI.map((pilot) => {
+        const entry = data.find((item) => item.psn === pilot);
+
+        return {
+            pilot,
+            dr: Number(entry?.dr ?? entry?.drPoints ?? 0),
+            delta: Number(entry?.delta ?? 0),
+            wins: Number(entry?.wins ?? 0),
+            races: Number(entry?.races ?? 0),
+            winrate: entry?.winrate ?? "-",
+        };
+    }).sort((a, b) => b.dr - a.dr);
+
+    const tbody = document.getElementById("table-body");
+    tbody.innerHTML = "";
+
+    orderedPilots.forEach((p, index) => {
+        const row = `
+            <tr>
+                <td>${index + 1}</td>
+                <td style="text-align:left;">
+                    <img class="avatar" src="${AVATAR_BASE}${p.pilot}.png" onerror="this.src='https://via.placeholder.com/80'" />
+                    &nbsp;&nbsp;${p.pilot}
+                </td>
+                <td>${p.dr}</td>
+                <td class="green">${p.delta}</td>
+                <td>${p.races}</td>
+                <td>${p.wins}</td>
+                <td>${p.winrate}</td>
+            </tr>
+        `;
+
+        tbody.innerHTML += row;
+    });
+}
+
+loadData();
+</script>
+
+</body>
+</html>

@@ -10,4 +10,5 @@ comparison_result*.txt
 *.json
 !dr.json
 *.html
+!index.html
 *_debug.png
