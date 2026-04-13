@@ -1,8 +1,8 @@
 [
   {
     "psn": "RKE_MaxEpico1979",
-    "dr": 55549,
-    "drPoints": 55549,
+    "dr": 61098,
+    "drPoints": 61098,
     "wins": 9,
     "races": 53,
     "top5": 32,
@@ -12,8 +12,8 @@
   },
   {
     "psn": "RKE_Ekin",
-    "dr": 50842,
-    "drPoints": 50842,
+    "dr": 51685,
+    "drPoints": 51685,
     "wins": 21,
     "races": 140,
     "top5": 73,
@@ -23,12 +23,12 @@
   },
   {
     "psn": "RKE__Giuls",
-    "dr": 60134,
-    "drPoints": 60134,
-    "wins": 223,
-    "races": 790,
-    "top5": 605,
-    "poles": 324,
+    "dr": 68851,
+    "drPoints": 68851,
+    "wins": 224,
+    "races": 794,
+    "top5": 607,
+    "poles": 325,
     "winrate": "28.2%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE__Giuls.png"
   },
@@ -56,17 +56,6 @@
   },
   {
     "psn": "RKE_Pepyx29",
-    "dr": 20121,
-    "drPoints": 20121,
-    "wins": 0,
-    "races": 15,
-    "top5": 1,
-    "poles": 15,
-    "winrate": "0.0%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Pepyx29.png"
-  },
-  {
-    "psn": "RKE__Carra7",
     "dr": 0,
     "drPoints": 0,
     "wins": 0,
@@ -77,9 +66,20 @@
     "avatarUrl": ""
   },
   {
+    "psn": "RKE__Carra7",
+    "dr": 77292,
+    "drPoints": 77292,
+    "wins": 87,
+    "races": 315,
+    "top5": 230,
+    "poles": 97,
+    "winrate": "27.6%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE__Carra7.png"
+  },
+  {
     "psn": "RKE_Micky30",
-    "dr": 52869,
-    "drPoints": 52869,
+    "dr": 55738,
+    "drPoints": 55738,
     "wins": 4,
     "races": 8,
     "top5": 7,
@@ -133,8 +133,8 @@
   },
   {
     "psn": "RKE_Rey",
-    "dr": 55180,
-    "drPoints": 55180,
+    "dr": 60359,
+    "drPoints": 60359,
     "wins": 14,
     "races": 81,
     "top5": 61,
@@ -144,8 +144,8 @@
   },
   {
     "psn": "RKE_87treviGT",
-    "dr": 52742,
-    "drPoints": 52742,
+    "dr": 55483,
+    "drPoints": 55483,
     "wins": 36,
     "races": 377,
     "top5": 242,
