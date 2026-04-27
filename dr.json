@@ -1,8 +1,8 @@
 [
   {
     "psn": "RKE_MaxEpico1979",
-    "dr": 61098,
-    "drPoints": 61098,
+    "dr": 62130,
+    "drPoints": 62130,
     "wins": 9,
     "races": 53,
     "top5": 32,
@@ -12,8 +12,8 @@
   },
   {
     "psn": "RKE_Ekin",
-    "dr": 51685,
-    "drPoints": 51685,
+    "dr": 52353,
+    "drPoints": 52353,
     "wins": 21,
     "races": 140,
     "top5": 73,
@@ -23,12 +23,12 @@
   },
   {
     "psn": "RKE__Giuls",
-    "dr": 66996,
-    "drPoints": 66996,
-    "wins": 225,
-    "races": 804,
-    "top5": 616,
-    "poles": 329,
+    "dr": 66879,
+    "drPoints": 66879,
+    "wins": 227,
+    "races": 812,
+    "top5": 622,
+    "poles": 331,
     "winrate": "28.0%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE__Giuls.png"
   },
