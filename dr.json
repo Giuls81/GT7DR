@@ -1,8 +1,8 @@
 [
   {
     "psn": "RKE_MaxEpico1979",
-    "dr": 62130,
-    "drPoints": 62130,
+    "dr": 63177,
+    "drPoints": 63177,
     "wins": 9,
     "races": 53,
     "top5": 32,
@@ -12,8 +12,8 @@
   },
   {
     "psn": "RKE_Ekin",
-    "dr": 52353,
-    "drPoints": 52353,
+    "dr": 50764,
+    "drPoints": 50764,
     "wins": 21,
     "races": 140,
     "top5": 73,
@@ -23,13 +23,13 @@
   },
   {
     "psn": "RKE__Giuls",
-    "dr": 66879,
-    "drPoints": 66879,
-    "wins": 227,
-    "races": 812,
-    "top5": 622,
-    "poles": 331,
-    "winrate": "28.0%",
+    "dr": 41898,
+    "drPoints": 41898,
+    "wins": 231,
+    "races": 827,
+    "top5": 631,
+    "poles": 336,
+    "winrate": "27.9%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE__Giuls.png"
   },
   {
@@ -67,13 +67,13 @@
   },
   {
     "psn": "RKE__Carra7",
-    "dr": 78052,
-    "drPoints": 78052,
-    "wins": 92,
-    "races": 321,
-    "top5": 236,
-    "poles": 102,
-    "winrate": "28.7%",
+    "dr": 77497,
+    "drPoints": 77497,
+    "wins": 100,
+    "races": 333,
+    "top5": 246,
+    "poles": 112,
+    "winrate": "30.0%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE__Carra7.png"
   },
   {
@@ -122,11 +122,11 @@
   },
   {
     "psn": "RKE_JigenBiker",
-    "dr": 15297,
-    "drPoints": 15297,
+    "dr": 13872,
+    "drPoints": 13872,
     "wins": 151,
-    "races": 1607,
-    "top5": 851,
+    "races": 1612,
+    "top5": 854,
     "poles": 223,
     "winrate": "9.4%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_JigenBiker.png"
