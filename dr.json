@@ -99,37 +99,37 @@
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Monty.png"
   },
   {
-    "psn": "Daviderom_91",
-    "dr": 0,
-    "drPoints": 0,
-    "wins": 0,
-    "races": 0,
-    "top5": 0,
-    "poles": 0,
-    "winrate": "-",
-    "avatarUrl": ""
+    "psn": "RKE_DAVIDE91",
+    "dr": 22476,
+    "drPoints": 22476,
+    "wins": 17,
+    "races": 106,
+    "top5": 47,
+    "poles": 16,
+    "winrate": "16.0%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_DAVIDE91.png"
   },
   {
     "psn": "RKE_BALDO44",
-    "dr": 0,
-    "drPoints": 0,
+    "dr": 2,
+    "drPoints": 2,
     "wins": 0,
-    "races": 0,
-    "top5": 0,
-    "poles": 0,
-    "winrate": "-",
-    "avatarUrl": ""
+    "races": 72,
+    "top5": 14,
+    "poles": 72,
+    "winrate": "0.0%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_BALDO44.png"
   },
   {
     "psn": "RKE_JigenBiker",
-    "dr": 0,
-    "drPoints": 0,
-    "wins": 0,
-    "races": 0,
-    "top5": 0,
-    "poles": 0,
-    "winrate": "-",
-    "avatarUrl": ""
+    "dr": 13872,
+    "drPoints": 13872,
+    "wins": 151,
+    "races": 1612,
+    "top5": 854,
+    "poles": 223,
+    "winrate": "9.4%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_JigenBiker.png"
   },
   {
     "psn": "RKE_Rey",
@@ -152,5 +152,38 @@
     "poles": 23,
     "winrate": "9.5%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_87treviGT.png"
+  },
+  {
+    "psn": "RKE_WUORDRALLYCAR",
+    "dr": 0,
+    "drPoints": 0,
+    "wins": 0,
+    "races": 0,
+    "top5": 0,
+    "poles": 0,
+    "winrate": "-",
+    "avatarUrl": ""
+  },
+  {
+    "psn": "RKE_MORNA",
+    "dr": 0,
+    "drPoints": 0,
+    "wins": 0,
+    "races": 0,
+    "top5": 0,
+    "poles": 0,
+    "winrate": "-",
+    "avatarUrl": ""
+  },
+  {
+    "psn": "RKE_IannuzziJr",
+    "dr": 0,
+    "drPoints": 0,
+    "wins": 0,
+    "races": 0,
+    "top5": 0,
+    "poles": 0,
+    "winrate": "-",
+    "avatarUrl": ""
   }
 ]

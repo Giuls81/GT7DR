@@ -10,14 +10,17 @@ PILOTI_LIST = [
     "RKE_Bazzo",
     "RKE_Cjcerbola",
     "RKE_Pepyx29",
-    "RKE_MWalter",
     "RKE__Carra7",
     "RKE_Micky30",
     "RKE_Monty",
-    "Daviderom_91",
+    "RKE_DAVIDE91",
     "RKE_BALDO44",
     "RKE_JigenBiker",
-    "brummybulldog",
+    "RKE_Rey",
+    "RKE_87treviGT",
+    "RKE_WUORDRALLYCAR",
+    "RKE_MORNA",
+    "RKE_IannuzziJr",
 ]
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

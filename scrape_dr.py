@@ -43,11 +43,14 @@ PILOTI_LIST = [
     "RKE__Carra7",
     "RKE_Micky30",
     "RKE_Monty",
-    "Daviderom_91",
+    "RKE_DAVIDE91",
     "RKE_BALDO44",
     "RKE_JigenBiker",
     "RKE_Rey",
     "RKE_87treviGT",
+    "RKE_WUORDRALLYCAR",
+    "RKE_MORNA",
+    "RKE_IannuzziJr",
 ]
 
 ALL_PILOTI = PILOTI_LIST[:]
