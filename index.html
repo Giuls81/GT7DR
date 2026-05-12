@@ -80,15 +80,20 @@ const PILOTI = [
     "RKE_Bazzo",
     "RKE_Monty",
     "RKE_Pepyx29",
-    "Daviderom_91",
+    "RKE_DAVIDE91",
     "RKE_JigenBiker",
     "RKE_Cjcerbola",
-    "RKE_BALDO44"
+    "RKE_BALDO44",
+    "RKE_WUORDRALLYCAR",
+    "RKE_Morna",
+    "RKE_IannuzziJr",
+    "RKE_Leon97",
+    "RKE-DaviGameR"
 ];
 
-// URL GitHub
-const AVATAR_BASE = "https://raw.githubusercontent.com/Giuls81/gt7dr/main/avatars/";
-const DR_URL = "https://raw.githubusercontent.com/Giuls81/gt7dr/main/dr.json";
+// URL relativi: funziona sia in locale che su GitHub Pages
+const AVATAR_BASE = "./avatars/";
+const DR_URL = "./dr.json";
 
 async function loadData() {
     const res = await fetch(DR_URL);

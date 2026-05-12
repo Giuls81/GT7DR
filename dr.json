@@ -99,37 +99,37 @@
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Monty.png"
   },
   {
-    "psn": "Daviderom_91",
-    "dr": 0,
-    "drPoints": 0,
-    "wins": 0,
-    "races": 0,
-    "top5": 0,
-    "poles": 0,
-    "winrate": "-",
-    "avatarUrl": ""
+    "psn": "RKE_DAVIDE91",
+    "dr": 23157,
+    "drPoints": 23157,
+    "wins": 18,
+    "races": 107,
+    "top5": 48,
+    "poles": 17,
+    "winrate": "16.8%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_DAVIDE91.png"
   },
   {
     "psn": "RKE_BALDO44",
-    "dr": 0,
-    "drPoints": 0,
+    "dr": 2,
+    "drPoints": 2,
     "wins": 0,
-    "races": 0,
-    "top5": 0,
-    "poles": 0,
-    "winrate": "-",
-    "avatarUrl": ""
+    "races": 72,
+    "top5": 14,
+    "poles": 72,
+    "winrate": "0.0%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_BALDO44.png"
   },
   {
     "psn": "RKE_JigenBiker",
-    "dr": 0,
-    "drPoints": 0,
-    "wins": 0,
-    "races": 0,
-    "top5": 0,
-    "poles": 0,
-    "winrate": "-",
-    "avatarUrl": ""
+    "dr": 13872,
+    "drPoints": 13872,
+    "wins": 151,
+    "races": 1612,
+    "top5": 854,
+    "poles": 223,
+    "winrate": "9.4%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_JigenBiker.png"
   },
   {
     "psn": "RKE_Rey",
@@ -152,5 +152,60 @@
     "poles": 23,
     "winrate": "9.5%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_87treviGT.png"
+  },
+  {
+    "psn": "RKE_WUORDRALLYCAR",
+    "dr": 0,
+    "drPoints": 0,
+    "wins": 0,
+    "races": 0,
+    "top5": 0,
+    "poles": 0,
+    "winrate": "-",
+    "avatarUrl": ""
+  },
+  {
+    "psn": "RKE_Morna",
+    "dr": 61483,
+    "drPoints": 61483,
+    "wins": 35,
+    "races": 127,
+    "top5": 92,
+    "poles": 39,
+    "winrate": "27.6%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Morna.png"
+  },
+  {
+    "psn": "RKE_IannuzziJr",
+    "dr": 54132,
+    "drPoints": 54132,
+    "wins": 36,
+    "races": 97,
+    "top5": 79,
+    "poles": 46,
+    "winrate": "37.1%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_IannuzziJr.png"
+  },
+  {
+    "psn": "RKE_Leon97",
+    "dr": 7606,
+    "drPoints": 7606,
+    "wins": 13,
+    "races": 15,
+    "top5": 15,
+    "poles": 14,
+    "winrate": "86.7%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Leon97.png"
+  },
+  {
+    "psn": "RKE-DaviGameR",
+    "dr": 2535,
+    "drPoints": 2535,
+    "wins": 0,
+    "races": 0,
+    "top5": 0,
+    "poles": 0,
+    "winrate": "-",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE-DaviGameR.png"
   }
 ]
