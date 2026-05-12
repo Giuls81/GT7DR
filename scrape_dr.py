@@ -52,7 +52,7 @@ PILOTI_LIST = [
     "RKE_Morna",
     "RKE_IannuzziJr",
     "RKE_Leon97",
-    "RKE_DaviGamer",
+    "RKE-DaviGameR",
 ]
 
 ALL_PILOTI = PILOTI_LIST[:]

@@ -22,7 +22,7 @@ PILOTI_LIST = [
     "RKE_Morna",
     "RKE_IannuzziJr",
     "RKE_Leon97",
-    "RKE_DaviGamer",
+    "RKE-DaviGameR",
 ]
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
