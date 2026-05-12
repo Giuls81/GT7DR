@@ -19,7 +19,7 @@ PILOTI_LIST = [
     "RKE_Rey",
     "RKE_87treviGT",
     "RKE_WUORDRALLYCAR",
-    "RKE_MORNA",
+    "RKE_Morna",
     "RKE_IannuzziJr",
     "RKE_Leon97",
     "RKE_DaviGamer",

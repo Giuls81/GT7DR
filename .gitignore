@@ -12,3 +12,5 @@ comparison_result*.txt
 *.html
 !index.html
 *_debug.png
+debug_*.html
+*.log
