@@ -1,8 +1,8 @@
 [
   {
     "psn": "RKE_MaxEpico1979",
-    "dr": 62339,
-    "drPoints": 62339,
+    "dr": 63541,
+    "drPoints": 63541,
     "wins": 9,
     "races": 53,
     "top5": 32,
@@ -23,13 +23,13 @@
   },
   {
     "psn": "RKE__Giuls",
-    "dr": 52130,
-    "drPoints": 52130,
+    "dr": 48190,
+    "drPoints": 48190,
     "wins": 244,
-    "races": 857,
-    "top5": 653,
-    "poles": 349,
-    "winrate": "28.5%",
+    "races": 865,
+    "top5": 659,
+    "poles": 351,
+    "winrate": "28.2%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE__Giuls.png"
   },
   {
@@ -100,13 +100,13 @@
   },
   {
     "psn": "RKE_DAVIDE91",
-    "dr": 23157,
-    "drPoints": 23157,
+    "dr": 23787,
+    "drPoints": 23787,
     "wins": 18,
-    "races": 107,
-    "top5": 48,
-    "poles": 17,
-    "winrate": "16.8%",
+    "races": 108,
+    "top5": 49,
+    "poles": 18,
+    "winrate": "16.7%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_DAVIDE91.png"
   },
   {
@@ -177,13 +177,13 @@
   },
   {
     "psn": "RKE_IannuzziJr",
-    "dr": 54132,
-    "drPoints": 54132,
+    "dr": 53324,
+    "drPoints": 53324,
     "wins": 36,
-    "races": 97,
-    "top5": 79,
+    "races": 105,
+    "top5": 81,
     "poles": 46,
-    "winrate": "37.1%",
+    "winrate": "34.3%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_IannuzziJr.png"
   },
   {
