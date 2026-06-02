@@ -67,13 +67,13 @@
   },
   {
     "psn": "RKE__Carra7",
-    "dr": 63281,
-    "drPoints": 63281,
-    "wins": 86,
-    "races": 310,
-    "top5": 227,
-    "poles": 97,
-    "winrate": "27.7%",
+    "dr": 77497,
+    "drPoints": 77497,
+    "wins": 100,
+    "races": 333,
+    "top5": 246,
+    "poles": 112,
+    "winrate": "30.0%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE__Carra7.png"
   },
   {
@@ -114,9 +114,9 @@
     "dr": 2,
     "drPoints": 2,
     "wins": 0,
-    "races": 70,
-    "top5": 14,
-    "poles": 70,
+    "races": 74,
+    "top5": 15,
+    "poles": 2,
     "winrate": "0.0%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_BALDO44.png"
   },
