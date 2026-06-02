@@ -15,19 +15,47 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.9"
+          python-version: "3.12"
+          cache: "pip"
 
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
       - name: Create Firebase Key
-        run: echo "${{ secrets.FIREBASE_KEY_CONTENT }}" > firebase_key.json
+        env:
+          FIREBASE_KEY_CONTENT: ${{ secrets.FIREBASE_KEY_CONTENT }}
+        run: |
+          # Decodifica il secret base64 in firebase_key.json
+          # NOTA: il secret DEVE essere il service account JSON codificato in base64.
+          # Per generarlo: base64 -w 0 service-account.json (Linux) o
+          # [Convert]::ToBase64String([IO.File]::ReadAllBytes("file.json")) (PowerShell)
+          printf '%s' "$FIREBASE_KEY_CONTENT" | base64 -d > firebase_key.json
+
+          # Fail-fast: verifica che sia JSON valido E che contenga i campi essenziali
+          # del service account. Cosi' se il secret e' rotto, il workflow muore in
+          # 2 secondi invece di sprecare 18 minuti su Selenium.
+          python -c "
+          import json, sys
+          try:
+              with open('firebase_key.json') as f:
+                  data = json.load(f)
+          except json.JSONDecodeError as e:
+              print(f'::error::firebase_key.json non e\\'  JSON valido: {e}')
+              print('::error::Il secret FIREBASE_KEY_CONTENT deve essere il service account codificato in base64.')
+              sys.exit(1)
+          required = ['type', 'project_id', 'private_key', 'client_email']
+          missing = [k for k in required if k not in data]
+          if missing:
+              print(f'::error::firebase_key.json non e\\' un service account valido. Campi mancanti: {missing}')
+              sys.exit(1)
+          print(f'::notice::Firebase key OK (project: {data[\"project_id\"]})')
+          "
 
       - name: Run Scraper
         run: python scrape_dr.py
