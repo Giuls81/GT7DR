@@ -114,9 +114,9 @@
     "dr": 2,
     "drPoints": 2,
     "wins": 0,
-    "races": 74,
+    "races": 75,
     "top5": 15,
-    "poles": 74,
+    "poles": 75,
     "winrate": "0.0%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_BALDO44.png"
   },
@@ -177,13 +177,13 @@
   },
   {
     "psn": "RKE_IannuzziJr",
-    "dr": 53324,
-    "drPoints": 53324,
+    "dr": 51996,
+    "drPoints": 51996,
     "wins": 36,
-    "races": 105,
-    "top5": 81,
+    "races": 130,
+    "top5": 86,
     "poles": 46,
-    "winrate": "34.3%",
+    "winrate": "27.7%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_IannuzziJr.png"
   },
   {
