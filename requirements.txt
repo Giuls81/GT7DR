@@ -1,4 +1,4 @@
 selenium
 webdriver-manager
 firebase-admin
-
+requests
