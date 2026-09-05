@@ -17,6 +17,8 @@ import time
 import re
 import json
 import io
+
+import requests
 from datetime import datetime, timezone
 
 from selenium import webdriver
@@ -33,7 +35,20 @@ from firebase_admin import credentials, firestore
 #   LISTA PILOTI
 # ============================================================
 
-PILOTI_LIST = [
+# Fonte di verita': il ruolo Discord "Piloti RKE", esposto da Odino su
+# https://res.ragnarokesport.com/api/rke/piloti. Prima la lista stava scritta a
+# mano qui, e in altri tre punti nel repo del sito: un pilota nuovo veniva
+# scrapato solo se qualcuno si ricordava di aggiungerlo in tutti e quattro.
+#
+# La lista qui sotto resta come ripiego per quando l'endpoint non risponde: il
+# lavoro settimanale non deve saltare perche' il VPS e' in manutenzione. Puo'
+# essere indietro di qualche nome - va bene, e' il ripiego, non la fonte.
+
+ROSTER_ENDPOINT = os.environ.get(
+    "RKE_ROSTER_URL", "https://res.ragnarokesport.com/api/rke/piloti"
+)
+
+PILOTI_FALLBACK = [
     "RKE_MaxEpico1979",
     "RKE_Ekin",
     "RKE__Giuls",
@@ -54,6 +69,41 @@ PILOTI_LIST = [
     "RKE_Leon97",
     "RKE-DaviGameR",
 ]
+
+
+def carica_piloti():
+    """PSN dei piloti RKE dal ruolo Discord, con ripiego sulla lista statica.
+
+    Nel `try` sta solo la rete: se ci finisse dentro anche la stampa, una
+    console che non digerisce le emoji verrebbe scambiata per un endpoint giu'
+    e lo scrape ripiegherebbe sulla lista vecchia senza motivo.
+    """
+    try:
+        risposta = requests.get(ROSTER_ENDPOINT, timeout=20)
+        risposta.raise_for_status()
+        dati = risposta.json()
+        psns = [p["psn"] for p in dati.get("piloti", []) if p.get("psn")]
+        scartati = dati.get("scartati", [])
+        if not psns:
+            raise ValueError("roster vuoto")
+        errore = None
+    except Exception as e:
+        psns, scartati, errore = [], [], e
+
+    if errore is not None:
+        print(f"[!] Roster non raggiungibile ({errore}), uso la lista statica "
+              f"di {len(PILOTI_FALLBACK)} piloti")
+        return PILOTI_FALLBACK[:]
+
+    if scartati:
+        # Hanno il ruolo ma nessun PSN nel nickname: non verranno scrapati.
+        etichette = ", ".join(str(s.get("etichetta")) for s in scartati)
+        print(f"[!] {len(scartati)} membri col ruolo senza PSN nel nickname: {etichette}")
+    print(f"[i] Roster dal ruolo Discord: {len(psns)} piloti")
+    return psns
+
+
+PILOTI_LIST = carica_piloti()
 
 ALL_PILOTI = PILOTI_LIST[:]
 piloti = PILOTI_LIST[:]
