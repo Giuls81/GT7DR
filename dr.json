@@ -34,12 +34,12 @@
   },
   {
     "psn": "RKE__Giuls",
-    "dr": 50642,
-    "drPoints": 50642,
-    "wins": 282,
-    "races": 1025,
-    "top5": 778,
-    "poles": 415,
+    "dr": 52359,
+    "drPoints": 52359,
+    "wins": 290,
+    "races": 1053,
+    "top5": 793,
+    "poles": 425,
     "winrate": "27.5%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE__Giuls.png"
   },
@@ -99,28 +99,6 @@
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Ekin.png"
   },
   {
-    "psn": "RKE_Gianfri",
-    "dr": 5520,
-    "drPoints": 5520,
-    "wins": 5,
-    "races": 260,
-    "top5": 80,
-    "poles": 1,
-    "winrate": "1.9%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Gianfri.png"
-  },
-  {
-    "psn": "RKE_IannuzziJr",
-    "dr": 51693,
-    "drPoints": 51693,
-    "wins": 36,
-    "races": 132,
-    "top5": 86,
-    "poles": 46,
-    "winrate": "27.3%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_IannuzziJr.png"
-  },
-  {
     "psn": "RKE_JigenBiker",
     "dr": 12126,
     "drPoints": 12126,
@@ -141,17 +119,6 @@
     "poles": 14,
     "winrate": "86.7%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Leon97.png"
-  },
-  {
-    "psn": "RKE_LoZioBeppe",
-    "dr": 0,
-    "drPoints": 0,
-    "wins": 0,
-    "races": 0,
-    "top5": 0,
-    "poles": 0,
-    "winrate": "-",
-    "avatarUrl": ""
   },
   {
     "psn": "RKE_MaxEpico1979",
