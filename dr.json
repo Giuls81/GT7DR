@@ -1,36 +1,25 @@
 [
   {
-    "psn": "RKE-DaviGameR",
-    "dr": 2535,
-    "drPoints": 2535,
-    "wins": 0,
-    "races": 0,
-    "top5": 0,
-    "poles": 0,
-    "winrate": "-",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE-DaviGameR.png"
+    "psn": "RKE_MaxEpico1979",
+    "dr": 62537,
+    "drPoints": 62537,
+    "wins": 9,
+    "races": 61,
+    "top5": 38,
+    "poles": 16,
+    "winrate": "14.8%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_MaxEpico1979.png"
   },
   {
-    "psn": "RKE_87treviGT",
-    "dr": 55483,
-    "drPoints": 55483,
-    "wins": 37,
-    "races": 383,
-    "top5": 245,
-    "poles": 23,
-    "winrate": "9.7%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_87treviGT.png"
-  },
-  {
-    "psn": "RKE__Carra7",
-    "dr": 74399,
-    "drPoints": 74399,
-    "wins": 105,
-    "races": 363,
-    "top5": 265,
-    "poles": 120,
-    "winrate": "28.9%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE__Carra7.png"
+    "psn": "RKE_Ekin",
+    "dr": 50764,
+    "drPoints": 50764,
+    "wins": 21,
+    "races": 140,
+    "top5": 73,
+    "poles": 21,
+    "winrate": "15.0%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Ekin.png"
   },
   {
     "psn": "RKE__Giuls",
@@ -42,17 +31,6 @@
     "poles": 425,
     "winrate": "27.5%",
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE__Giuls.png"
-  },
-  {
-    "psn": "RKE_BALDO44",
-    "dr": 2,
-    "drPoints": 2,
-    "wins": 0,
-    "races": 78,
-    "top5": 15,
-    "poles": 78,
-    "winrate": "0.0%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_BALDO44.png"
   },
   {
     "psn": "RKE_Bazzo",
@@ -77,59 +55,26 @@
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Cjcerbola.png"
   },
   {
-    "psn": "RKE_DAVIDE91",
-    "dr": 23329,
-    "drPoints": 23329,
-    "wins": 18,
-    "races": 119,
-    "top5": 56,
-    "poles": 19,
-    "winrate": "15.1%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_DAVIDE91.png"
-  },
-  {
-    "psn": "RKE_Ekin",
-    "dr": 50764,
-    "drPoints": 50764,
-    "wins": 21,
-    "races": 140,
-    "top5": 73,
-    "poles": 21,
-    "winrate": "15.0%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Ekin.png"
-  },
-  {
-    "psn": "RKE_JigenBiker",
-    "dr": 12126,
-    "drPoints": 12126,
-    "wins": 151,
-    "races": 1625,
-    "top5": 858,
-    "poles": 223,
-    "winrate": "9.3%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_JigenBiker.png"
-  },
-  {
-    "psn": "RKE_Leon97",
-    "dr": 7606,
-    "drPoints": 7606,
-    "wins": 13,
+    "psn": "RKE_Pepyx29",
+    "dr": 20121,
+    "drPoints": 20121,
+    "wins": 0,
     "races": 15,
-    "top5": 15,
-    "poles": 14,
-    "winrate": "86.7%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Leon97.png"
+    "top5": 1,
+    "poles": 15,
+    "winrate": "0.0%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Pepyx29.png"
   },
   {
-    "psn": "RKE_MaxEpico1979",
-    "dr": 62537,
-    "drPoints": 62537,
-    "wins": 9,
-    "races": 61,
-    "top5": 38,
-    "poles": 16,
-    "winrate": "14.8%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_MaxEpico1979.png"
+    "psn": "RKE__Carra7",
+    "dr": 74298,
+    "drPoints": 74298,
+    "wins": 105,
+    "races": 365,
+    "top5": 267,
+    "poles": 122,
+    "winrate": "28.8%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE__Carra7.png"
   },
   {
     "psn": "RKE_Micky30",
@@ -154,26 +99,37 @@
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Monty.png"
   },
   {
-    "psn": "RKE_Morna",
-    "dr": 61483,
-    "drPoints": 61483,
-    "wins": 35,
-    "races": 127,
-    "top5": 92,
-    "poles": 39,
-    "winrate": "27.6%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Morna.png"
+    "psn": "RKE_DAVIDE91",
+    "dr": 23329,
+    "drPoints": 23329,
+    "wins": 18,
+    "races": 119,
+    "top5": 56,
+    "poles": 19,
+    "winrate": "15.1%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_DAVIDE91.png"
   },
   {
-    "psn": "RKE_Pepyx29",
-    "dr": 20121,
-    "drPoints": 20121,
+    "psn": "RKE_BALDO44",
+    "dr": 2,
+    "drPoints": 2,
     "wins": 0,
-    "races": 15,
-    "top5": 1,
-    "poles": 15,
+    "races": 78,
+    "top5": 15,
+    "poles": 78,
     "winrate": "0.0%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Pepyx29.png"
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_BALDO44.png"
+  },
+  {
+    "psn": "RKE_JigenBiker",
+    "dr": 12126,
+    "drPoints": 12126,
+    "wins": 151,
+    "races": 1625,
+    "top5": 858,
+    "poles": 223,
+    "winrate": "9.3%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_JigenBiker.png"
   },
   {
     "psn": "RKE_Rey",
@@ -187,26 +143,15 @@
     "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Rey.png"
   },
   {
-    "psn": "RKE_Salviano",
-    "dr": 0,
-    "drPoints": 0,
-    "wins": 0,
-    "races": 0,
-    "top5": 0,
-    "poles": 0,
-    "winrate": "-",
-    "avatarUrl": ""
-  },
-  {
-    "psn": "RKE_Stefieneko",
-    "dr": 36111,
-    "drPoints": 36111,
-    "wins": 4,
-    "races": 32,
-    "top5": 15,
-    "poles": 2,
-    "winrate": "12.5%",
-    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Stefieneko.png"
+    "psn": "RKE_87treviGT",
+    "dr": 55483,
+    "drPoints": 55483,
+    "wins": 37,
+    "races": 383,
+    "top5": 245,
+    "poles": 23,
+    "winrate": "9.7%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_87treviGT.png"
   },
   {
     "psn": "RKE_WUORDRALLYCAR",
@@ -218,5 +163,49 @@
     "poles": 0,
     "winrate": "-",
     "avatarUrl": ""
+  },
+  {
+    "psn": "RKE_Morna",
+    "dr": 61483,
+    "drPoints": 61483,
+    "wins": 35,
+    "races": 127,
+    "top5": 92,
+    "poles": 39,
+    "winrate": "27.6%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Morna.png"
+  },
+  {
+    "psn": "RKE_IannuzziJr",
+    "dr": 0,
+    "drPoints": 0,
+    "wins": 0,
+    "races": 0,
+    "top5": 0,
+    "poles": 0,
+    "winrate": "-",
+    "avatarUrl": ""
+  },
+  {
+    "psn": "RKE_Leon97",
+    "dr": 7606,
+    "drPoints": 7606,
+    "wins": 13,
+    "races": 15,
+    "top5": 15,
+    "poles": 14,
+    "winrate": "86.7%",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE_Leon97.png"
+  },
+  {
+    "psn": "RKE-DaviGameR",
+    "dr": 2535,
+    "drPoints": 2535,
+    "wins": 0,
+    "races": 0,
+    "top5": 0,
+    "poles": 0,
+    "winrate": "-",
+    "avatarUrl": "https://raw.githubusercontent.com/Giuls81/GT7DR/main/avatars/RKE-DaviGameR.png"
   }
 ]
